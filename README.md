@@ -5,8 +5,7 @@ XCryptor is a powerful encryption tool that lets you securely encrypt text and f
 
 Built as the full release successor to the beta Launchs Encryption Tool (https://github.com/Launcch/Launchs-SIMPLE-Encryption-TOOL), XCryptor provides a user-friendly interface and enhanced security features for all your encryption needs.
 
-This marks the complete release of the tool. Future updates are unlikely unless critical bugs are reported that require fixing.
-Instructions:
+This marks the complete release of the tool. Future updates are likely to happen.
 1. Encrypting/Decrypting TEXT
 Input your text in the top box
 chose your KDF method
