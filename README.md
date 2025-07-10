@@ -22,3 +22,5 @@ press browse button below
 chose file to encrypt
 choose where to save it.
 Same way for decrypting
+3. SAVING ENCRYPTED TEXT!!!
+   Save entire string from output that is generated and that all is needed to decrypt it
