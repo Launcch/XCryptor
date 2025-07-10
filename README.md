@@ -22,4 +22,4 @@ chose file to encrypt
 choose where to save it.
 Same way for decrypting
 3. SAVING ENCRYPTED TEXT!!!
-   Save entire string from output that (OPTIONAL) you can save meta data and include it while you decrypt but it doesnt matter 
+   Save entire string from output above meta data. (OPTIONAL) you can save meta data and include it while you decrypt but it doesnt matter 
