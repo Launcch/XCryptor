@@ -79,18 +79,6 @@ def derive_key_scrypt(password: str, salt: bytes) -> bytes:
     return base64.urlsafe_b64encode(key)
 
 def derive_key_bcrypt(password: str, salt: bytes) -> bytes:
-    # bcrypt salt format: $2b$12$ + 22 chars base64 salt (total 29 bytes)
-    # but we already have a salt bytes, so we need to create a valid bcrypt salt string:
-    # The salt param for bcrypt must be 16 bytes base64 encoded and formatted properly.
-    # We'll generate a bcrypt salt with the rounds and given salt.
-
-    # Create a bcrypt salt string from salt bytes:
-    # base64 encode 16 bytes salt to 22 chars bcrypt base64 format (modified base64)
-    # Unfortunately bcrypt uses a custom base64 alphabet, so we need to use bcrypt.gensalt() and can't supply raw salt bytes easily.
-    
-    # So a better approach: Use bcrypt.gensalt() with a fixed rounds, ignoring input salt.
-    # This means bcrypt can't accept an external salt like PBKDF2 or scrypt.
-    # So to support bcrypt with your interface, we have to generate salt inside, ignoring the passed salt.
 
     bcrypt_salt = bcrypt.gensalt(rounds=12)  # 12 is default cost
 
