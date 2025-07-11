@@ -1,4 +1,4 @@
-APP PREVIEW https://imgur.com/a/QXHZJ5o
+APP PREVIEW https://imgur.com/a/QXHZJ5o GO TO RELEASES FOR LATEST VERSION V1.0.0 is OUTDATED
 # XCryptor
 Simple Text/File Encrypter/Decrypter
 XCryptor is a powerful encryption tool that lets you securely encrypt text and files using advanced key derivation functions including Argon2id, PBKDF2, scrypt, and bcrypt. It employs Fernet symmetric encryption combined with SHA-256 hashing to ensure robust data protection.
